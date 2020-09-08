@@ -9,7 +9,8 @@ package org.apit.javapostsforlearning;
 public class HelloWorld {
     public String sayHelloWorld(String name)
     {
-    return "Hello world from T24    "+ name;
+        System.out.println("Bonjour");
+    return "Hello world from  T24 "+ name;
     }
 
 }
