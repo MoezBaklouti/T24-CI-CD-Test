@@ -1,4 +1,5 @@
 FROM openjdk:8
 EXPOSE 8080
+
 ADD target/T24-Routine-Deployment.jar T24-Routine-Deployment.jar
 ENTRYPOINT ["java", "-jar", "/T24-Routine-Deployment.jar"]
