@@ -1,0 +1,8 @@
+node{
+  stage ('SCM Chekout '){
+  git 'https://github.com/MoezBaklouti/T24-CI-CD-Test'
+  }
+  stage('clean '){
+  sh 'mvn clean'
+  }
+}

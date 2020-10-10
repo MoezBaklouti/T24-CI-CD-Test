@@ -1,0 +1,9 @@
+node{
+  stage ('SCM Chekout '){
+  def mvnHome = tool name: 'Maven', type: 'maven'
+  git 'https://github.com/MoezBaklouti/T24-CI-CD-Test'
+  }
+  stage('clean '){
+  sh 'mvn clean'
+  }
+}
