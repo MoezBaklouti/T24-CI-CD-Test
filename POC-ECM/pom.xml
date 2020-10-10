@@ -43,7 +43,7 @@
   </dependencies>
   
   <build>
-    <finalName>T24-Routine-Deployment</finalName>
+    
         <pluginManagement>
           <plugins>
             <plugin>
