@@ -10,7 +10,7 @@ import org.testng.annotations.*;
 public class TestDemo {
     @Test
     public void PrintSel(){
-        System.out.println("First Buil from Design Studio");
+        System.out.println("First Buil    from Design Studio");
     }
 
 }
